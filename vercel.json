@@ -7,6 +7,14 @@
     {
       "source": "/v-one/(.*)",
       "destination": "/v-one/$1"
+    },
+    {
+      "source": "/v-two",
+      "destination": "/v-two/index.html"
+    },
+    {
+      "source": "/v-two/(.*)",
+      "destination": "/v-two/$1"
     }
   ]
 }
